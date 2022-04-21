@@ -4,7 +4,7 @@ Primitive datatype is pre defined by the programming language The size and type 
 * Primitives are stored by value.
 ## Non primitive types:
 These data types types are not actually defined by the programming language 
-* Non-primitive values are mutable.
+* Non-primitive values are mutable. 
 * Non-Primitive (objects) are stored by reference.
 ### Number:
 number datatype in javascript can hold the decimal values as well as non decimal values
@@ -34,6 +34,4 @@ Symbol is a primitive data type of JavaScript, along with string, number, boolea
 
 ## Non Primitive:
 * JavaScript objects are written with curly braces {}.
-* Object properties are written as name:value pairs, separated by commas
-
-
+* Object properties are written as name:value pairs, separated by commas 
