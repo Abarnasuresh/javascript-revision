@@ -35,3 +35,8 @@ Symbol is a primitive data type of JavaScript, along with string, number, boolea
 ## Non Primitive:
 * JavaScript objects are written with curly braces {}.
 * Object properties are written as name:value pairs, separated by commas 
+
+## Arrays:
+Storeing the multiple values with one data type. it is a special type of object
+* typeof array is an object
+
