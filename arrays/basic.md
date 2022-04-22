@@ -48,3 +48,9 @@ flat() method creates a new array with all sub-array elements
 * syntax
 flat()
 flat(depth)
+### Array flatmap:
+flatMap() method returns a new array formed by applying a given callback function.
+### Array foreach:
+forEach() method executes a provided function once for each array element.
+### Array from:
+Array from() static method creates a new shallow copied array instance from an array
