@@ -18,4 +18,4 @@ let person = new Person('abarna');
 console.log(person);                                           // abarna
 
 person.setName('abi');
-console.log(person.getName());                                 // abi
+console.log(person.getName());                                 // abi 
