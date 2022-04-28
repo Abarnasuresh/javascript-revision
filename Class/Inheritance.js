@@ -1,14 +1,20 @@
-// parent class
-class Person { 
+class Person {                    //base class
     constructor(name) {
         this.name = name;
+        console.log(new.target.name);
     }
-    greet() {
-        console.log(`Hello ${this.name}`);
-    }
-} 
-// inheriting parent class
-class Student extends Person {
 }
-let student1 = new Student('abi');
-student1.greet();                                    //Hello abi
+ 
+class Employee extends Person {       //derived class
+    constructor(name, title) {
+        super(name);
+        this.title = title;
+    }
+}
+
+let p1= new Person('ramya'); // Person
+let p2 = new Employee('abi', 'Programmer'); // Employee
+
+
+//new.target returns reference of function                      //Person
+                                                                //Employee
