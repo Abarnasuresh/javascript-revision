@@ -1,4 +1,4 @@
-class Car {                          //Creating a class 
+class Car {                        //Create a class
     constructor(name, year) {          
       this.name = name;
       this.year = year;
