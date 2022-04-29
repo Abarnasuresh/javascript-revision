@@ -1,3 +1,4 @@
+//string conversion happens when we need the string form of the value
 let value = true;
 alert(typeof value); // boolean
 
