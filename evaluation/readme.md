@@ -17,13 +17,13 @@ chocolate to split). Input will always be a non-negative integer.
 ```js
 function breakChocalate(n,m){
     if(n>0 && m>0){
-        return n-1+m-1;                  
+        return n*m-1;                  
     }
     else{
         return 0;
     }
 }           
-console.log(breakChocalate(3,4));         //Output:5                    
+console.log(breakChocalate(3,4));           //Output:11                    
 ```
 
 2.A digital root is the recursive sum of all the digits in a number. Given n, take the sum of the digits

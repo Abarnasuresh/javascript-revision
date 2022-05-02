@@ -16,7 +16,7 @@ function digital_root(n) {
     }
   }
   digital_root(345);                                      //function call 
-                                                         // Output: 3
+                                                         // Output: 3 
 
 
 
