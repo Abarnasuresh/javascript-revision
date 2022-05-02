@@ -13,7 +13,8 @@ chocolate to split). Input will always be a non-negative integer.
 * Otherwise return zero if number is invalid 
 * call the function and print th result 
 
-### Program
+### Program:
+```js
 function breakChocalate(n,m){
     if(n>0 && m>0){
         return n-1+m-1;                  
@@ -23,7 +24,7 @@ function breakChocalate(n,m){
     }
 }           
 console.log(breakChocalate(3,4));         //Output:5                    
-
+```
 
 2.A digital root is the recursive sum of all the digits in a number. Given n, take the sum of the digits
 of n. If that value has more than one digit, continue reducing in this way until a single-digit number
@@ -38,6 +39,7 @@ is produced. This is only applicable to natural numbers.
 * print the result
 
 ### Program:
+```js
 function digital_root(n) {
     var digits = n.toString().split("").map(Number);
     var sum = 0;
@@ -57,3 +59,4 @@ function digital_root(n) {
   }
   digital_root(345);                                      //function call 
                                                          // Output: 3
+```
