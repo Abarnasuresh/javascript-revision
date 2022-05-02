@@ -26,12 +26,12 @@ This datatype can hold the only one possible values that is null
 * typeof(boolean) : "object"
 
 ### Undefined:
-Undefined is a type of its own. It’s not an object. Just a value JavaScript will use when you named a variable but don’t assign a value to it. Your hoisted variables will also be automatically assigned a value of undefined.
+Undefined is a type of its own. It’s not an object. Just a value JavaScript will use when you named a variable but don’t assign a value to it. Your hoisted variables will also be automatically assigned a value of undefined. 
 * typeof(boolean) : "undefined"  
 
 ### Symbol:
 Symbol is a primitive data type of JavaScript, along with string, number, boolean, null and undefined.
-
+                           
 ## Non Primitive:
 * JavaScript objects are written with curly braces {}.
 * Object properties are written as name:value pairs, separated by commas 
@@ -39,4 +39,3 @@ Symbol is a primitive data type of JavaScript, along with string, number, boolea
 ## Arrays:
 Storeing the multiple values with one data type. it is a special type of object
 * typeof array is an object
-
