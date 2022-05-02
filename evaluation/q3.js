@@ -17,3 +17,11 @@ function number(arr, n){
       return sol;
     } 
     number([1,1,2,1,2,3,4,2],2);                            //Output: [1, 1, 2, 2, 3, 4]
+
+
+
+
+//* Write the function with name as number and pass arr,n as arguments.
+//* Pass the empty array and object for storing result 
+//* Iterate over the array elements and check number of occurance of numbers
+//* Delete the number which is more than count of depth and print the final result
